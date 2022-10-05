@@ -1,0 +1,27 @@
+.categories {
+  background: #323941;
+}
+
+.categories__card {
+  padding: 9px 0 14px;
+  width: 130px;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.categories__card:hover {
+  background: #009eff;
+}
+.categories__card:hover .categories__text {
+  color: #ffffff;
+}
+.categories__text {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: rgba(250, 250, 250, 0.4);
+}

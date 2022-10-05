@@ -1,0 +1,41 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.col-8 {
+  flex: 66.67% 0;
+}
+
+.col-3 {
+  flex: 25% 0;
+}
+
+.col-4 {
+  flex: 33.33% 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-align: center;
+  text-transform: uppercase
+}

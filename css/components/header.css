@@ -1,0 +1,67 @@
+.header {
+}
+.header__top {
+  background: #323941;
+  color: #ffffff;
+  padding: 13px 0;
+}
+.header__bottom {
+  padding: 18px 0 20px;
+}
+.header-top {
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top__list {
+  justify-content: space-between;
+}
+.header-top__link {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+.header-top__info {
+  align-items: center;
+}
+.header-top__info a svg {
+  fill: #ffffff;
+  transition: 0.3s linear;
+}
+.header-top__info a:hover svg {
+  fill: red;
+}
+.header-top__img {
+  align-items: center;
+}
+.header-top__img img:first-child {
+  margin-right: 5px;
+}
+.header-top__img img:last-child {
+  margin-left: 5px;
+}
+.header-top__tel {
+  margin-left: 20px;
+}
+.header__logo {
+}
+.header-bottom__owner {
+}
+.header-bottom__name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+}
+.header-bottom__block {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 13px;
+  margin-right: 70px;
+}
+.header-bottom__link {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 119.3%;
+  color: #009eff;
+  text-decoration: underline;
+}

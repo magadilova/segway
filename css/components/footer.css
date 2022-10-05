@@ -1,0 +1,11 @@
+.footer{
+    background-color: #32393F;
+    color: #FFFFFF;
+    padding: 20px 0 ;
+
+}
+.footer__item{
+    margin-left: 40px;
+    font-size: 13px;
+    line-height: 119.3%;
+}
